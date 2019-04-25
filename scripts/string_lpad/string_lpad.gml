@@ -1,0 +1,10 @@
+     var str = string(argument0);
+     var len = argument1;
+     var pad = argument2;
+     var padsize = string_length(pad);
+     var padding = max(0,len - string_length(str));
+     var out  = string_repeat(pad,padding div padsize);
+     out += string_copy(pad,1,padding mod padsize);
+     out += str;
+     out  = string_copy(out,1,len);
+     return out;

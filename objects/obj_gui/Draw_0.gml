@@ -1,0 +1,1 @@
+//draw_text(current_camera_x, current_camera_y + 00, "Coins " + string_lpad(floor(coin_count),2,"0"));
