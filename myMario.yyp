@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0186500a-410d-48a0-bc9d-a7ed8ebca25b",
+            "Value": {
+                "id": "57336e0d-3d1e-410e-ac67-e960df037a2e",
+                "resourcePath": "views\\0186500a-410d-48a0-bc9d-a7ed8ebca25b.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "02d92bd6-229f-4e96-ab53-43ec56d46b36",
             "Value": {
                 "id": "f0a2d499-b635-49ef-be09-a41a08fd92cd",
@@ -60,6 +68,14 @@
                 "id": "0f197024-d993-47cb-a623-e4294f5cbbae",
                 "resourcePath": "sprites\\spr_big_mario_skid\\spr_big_mario_skid.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "06fdb53e-a5aa-4a4d-9bb5-4d6c08fef054",
+            "Value": {
+                "id": "9e062239-94da-4599-b5a3-7b7e30d09d3a",
+                "resourcePath": "sounds\\snd_win_level\\snd_win_level.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -115,6 +131,14 @@
             "Value": {
                 "id": "56f453e2-1585-4c63-b356-723d0889259a",
                 "resourcePath": "sprites\\spr_baby_mario_skid\\spr_baby_mario_skid.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "184fca92-b315-4d90-baaa-ebbc94983baa",
+            "Value": {
+                "id": "369e2d04-a203-4a85-9e58-684b74c242a0",
+                "resourcePath": "sprites\\spr_mushroom\\spr_mushroom.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -175,6 +199,14 @@
             }
         },
         {
+            "Key": "2a0644e1-d0a4-4713-bd61-88a24347962f",
+            "Value": {
+                "id": "580e3983-d205-44a3-b209-bd592b37cf08",
+                "resourcePath": "objects\\obj_mushroom\\obj_mushroom.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2cdc88af-567d-49ab-bfd1-a80ddfdedc0d",
             "Value": {
                 "id": "8cc521ab-5b9e-4313-bc2a-b5639f036f46",
@@ -212,6 +244,14 @@
                 "id": "2897a46e-011f-4f52-a710-12677b940b47",
                 "resourcePath": "objects\\obj_mario\\obj_mario.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "37cc158b-bc17-414a-8eb6-ce100cc2f724",
+            "Value": {
+                "id": "90c0f107-baad-4ecb-8f44-6dc1ad0de697",
+                "resourcePath": "sprites\\spr_til_powerups\\spr_til_powerups.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -330,7 +370,7 @@
             "Key": "61363d9c-c738-4056-a7da-2b213f915456",
             "Value": {
                 "id": "cd6866be-c115-4d0b-a31d-2f528a53abac",
-                "resourcePath": "sprites\\spr_baby_mario_run\\spr_baby_mario_run.yy",
+                "resourcePath": "sprites\\spr_baby_mario_move\\spr_baby_mario_move.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -383,6 +423,14 @@
             }
         },
         {
+            "Key": "75f2ce69-bf13-4caf-8180-2a2115af5e4a",
+            "Value": {
+                "id": "486956ba-b598-4285-94cd-3870360c3ca3",
+                "resourcePath": "objects\\control\\control.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "761dcfde-919c-4681-a543-cbc3ad87ee42",
             "Value": {
                 "id": "dba87223-e2de-4320-8a6d-3ed9e4fd69d8",
@@ -412,6 +460,14 @@
                 "id": "feaa76a7-2109-422d-b83a-f121deecafd4",
                 "resourcePath": "sprites\\spr_baby_mario_idle\\spr_baby_mario_idle.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7895a248-c732-416f-8738-7a1309f2e2c4",
+            "Value": {
+                "id": "c39c82a8-5cd6-4067-8330-0f2d08a810d5",
+                "resourcePath": "objects\\par_solid\\par_solid.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -523,6 +579,14 @@
             "Value": {
                 "id": "593bb818-5415-4b91-a882-e2fae34a575e",
                 "resourcePath": "objects\\obj_coin\\obj_coin.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9b607207-98d8-4e77-a335-5b2d2fe38cc7",
+            "Value": {
+                "id": "a1eb1528-2aae-4999-9a29-e9753cdc37c6",
+                "resourcePath": "objects\\par_brick\\par_brick.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -647,6 +711,14 @@
             }
         },
         {
+            "Key": "c5f8d9b4-0c06-4cd6-80c2-137f8bc63e66",
+            "Value": {
+                "id": "2ea472a2-7af1-456a-9940-9d5eaccf85a9",
+                "resourcePath": "objects\\par_enemy\\par_enemy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "c718337d-669d-491d-a6eb-b753bacd29f5",
             "Value": {
                 "id": "28664c4d-499e-41bd-85dd-0d54b13c77cb",
@@ -735,6 +807,14 @@
             }
         },
         {
+            "Key": "d9114b89-b311-4ef3-ad71-03a840fe508e",
+            "Value": {
+                "id": "edeed456-d77e-4104-ae2e-8f57bcf1a87c",
+                "resourcePath": "views\\d9114b89-b311-4ef3-ad71-03a840fe508e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "d94d628d-422f-4cfa-9484-3601b5fd4969",
             "Value": {
                 "id": "082f1555-b92d-497d-a351-73551d35dc28",
@@ -783,14 +863,6 @@
             }
         },
         {
-            "Key": "f0039e2b-e741-4b6f-b9c4-6108910a5479",
-            "Value": {
-                "id": "2ff3dafd-1f88-444d-9a61-b808e299bb8c",
-                "resourcePath": "sprites\\spr_baby_mario_walk\\spr_baby_mario_walk.yy",
-                "resourceType": "GMSprite"
-            }
-        },
-        {
             "Key": "f0da7877-2b03-4044-90ad-53f3ff61cbc4",
             "Value": {
                 "id": "31ee9644-a7a2-4936-9625-9ff33b93570d",
@@ -803,6 +875,14 @@
             "Value": {
                 "id": "f31efe36-5834-457e-85d0-dbc3c0b4992f",
                 "resourcePath": "sprites\\spr_big_mario_run\\spr_big_mario_run.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f5ec689b-c603-433d-9f82-75a458edd844",
+            "Value": {
+                "id": "b1154c2b-afb7-4d2f-b01d-073aac658d4f",
+                "resourcePath": "sprites\\spr_wall\\spr_wall.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -829,6 +909,22 @@
                 "resourcePath": "sprites\\spr_big_mario_walk\\spr_big_mario_walk.yy",
                 "resourceType": "GMSprite"
             }
+        },
+        {
+            "Key": "f9c1bd4b-5bb9-4416-a138-2504402acacf",
+            "Value": {
+                "id": "598f5c07-a4b7-4f82-8c83-2b62bfede7e0",
+                "resourcePath": "objects\\obj_text\\obj_text.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fa64c360-9725-489a-ae2b-149c754a4a5a",
+            "Value": {
+                "id": "83b2f9ed-6bcf-4b6d-99b7-e57becc6dbaf",
+                "resourcePath": "scripts\\collision_movement\\collision_movement.yy",
+                "resourceType": "GMScript"
+            }
         }
     ],
     "script_order": [
@@ -837,7 +933,8 @@
         "bde562a9-0139-462e-b702-94b2bc6a06ba",
         "35da774e-39b1-4dcb-8192-bbc22efb1a2e",
         "e8bc15f0-3e46-4f3f-b3b5-c8af9293e061",
-        "8082d499-ad68-4603-bc35-72ba31f2bdec"
+        "8082d499-ad68-4603-bc35-72ba31f2bdec",
+        "fa64c360-9725-489a-ae2b-149c754a4a5a"
     ],
     "tutorial": ""
 }

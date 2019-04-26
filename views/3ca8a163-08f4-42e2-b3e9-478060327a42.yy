@@ -9,8 +9,7 @@
         "4897ee0e-dd2a-466f-a236-d94f9e8b21b8",
         "22039974-6fb0-4b35-8c7c-76dc83c0faad",
         "a3ed9223-625c-42f2-8c49-1205a62544b0",
-        "13eb2f36-ef3f-49ca-b550-92d5597a0f9d",
-        "f0039e2b-e741-4b6f-b9c4-6108910a5479"
+        "13eb2f36-ef3f-49ca-b550-92d5597a0f9d"
     ],
     "filterType": "GMSprite",
     "folderName": "Baby Mario",

@@ -20,16 +20,17 @@
 	//CREATE RUN AND SET RUN SPEED
 	if keyboard_check(ord("D")) && direction < 180 then {
 		hspeed += run_speed;
-		sprite_index = spr_baby_mario_run;
+		sprite_index = spr_baby_mario_move;
 		image_speed = .6;
 	}
 		if keyboard_check(ord("D")) && direction >= 180 then {
 			hspeed -= run_speed;
-			sprite_index = spr_baby_mario_run;
+			sprite_index = spr_baby_mario_move;
 			image_speed = .6;
 		}
-		if keyboard_check_pressed(ord("D")) && direction = -1 then {
+		if keyboard_check_pressed(ord("D")) && direction = -direction then {
 			sprite_index = spr_baby_mario_skid;
+			hspeed -=1;
 		}
 		if keyboard_check_pressed(ord("D")) && keyboard_check_pressed(vk_space) then{
 			gravity_direction = vspeed * -jump_speed;
@@ -46,7 +47,7 @@ if   hspeed  != 0 then {
 	image_xscale = sign (hspeed);
 	if on_ground then { 
 		image_speed  = .6;
-		sprite_index = spr_baby_mario_walk;
+		sprite_index = spr_baby_mario_move;
 	} 
 }
 #endregion
@@ -93,29 +94,35 @@ if   hspeed  != 0 then {
 		if on_ground {					 
 			if keyboard_check_pressed(vk_space) then {
 			
-				vspeed = 1.2 * -jump_speed
+				vspeed = 1.2 * -jump_speed;
 				play_sound(snd_jump_sound);
-				  if (keyboard_check_released(vk_space) and vspeed < -4) {
-				  vspeed = -4;
-			
-    }
 			}
 		}//end if	
 #endregion
 
 //DEATH
-if hp = 0 {
-	alarm = room_speed *2 ;
-	lives -= 1; 
+if obj_mario.hp =0 {
+//if death_timer == 0 {
+//	lives -= 1; 
+//	global.grav =0;
+//	hsp = 0;
+//	vsp = 0;
+//
+//death_timer++;
+//sprite_index = spr_baby_mario_death;
+//image_speed =0;
 	
+	audio_stop_sound(snd_theme_loop);
 	//play_sound(snd_lost_life);
 	room_restart();
-	
-} 
+}	
+ 
 //TUBE
 if place_meeting(x,y+1,obj_tube) and keyboard_check_pressed(vk_down) then {
 	room_goto(room_lvl_one_TUBE);
 }
 
-
-		
+//if STATE == BIG then {
+//	image_speed =.2; 
+//	sprite_index = spr_big_mario_mushroom;	
+//}

@@ -5,16 +5,6 @@
     "name": "obj_breakable_brick",
     "eventList": [
         {
-            "id": "0d1e4e79-dcb5-4551-b679-a6ca97081d3b",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "379d39e4-4aa6-4110-9da3-aea639ed9b53",
-            "enumb": 0,
-            "eventtype": 4,
-            "m_owner": "6b64b068-4352-4e36-8519-69df82c68042"
-        },
-        {
             "id": "f9bfe52a-27a6-4181-8267-60bfa10f5675",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -37,7 +27,7 @@
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "00000000-0000-0000-0000-000000000000",
+    "parentObjectId": "9b607207-98d8-4e77-a335-5b2d2fe38cc7",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,
